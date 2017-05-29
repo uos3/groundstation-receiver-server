@@ -1,0 +1,4 @@
+receiver-server
+*.swp
+*~
+*.o
