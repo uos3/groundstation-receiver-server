@@ -1,5 +1,9 @@
 # uos3-receiver-server
 
+## Functionality so far
+
+* Reads chunks of 16-bit I/Q audio samples from USB Funcube Pro Plus Receiver
+
 ## Planned Features
 
 * rtl_tcp (SDR# compatible) output on port 1234 (8-bit I/Q, upsampled to 250KS/s)
