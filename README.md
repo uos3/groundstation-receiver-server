@@ -14,6 +14,7 @@
 
 * Sample chunks of 192 * 2 channel * 16-bit frames
 * Resample to chunks of 250 * 2 * 8 for SDR# compatibility (0.25 MSPS)
+  * http://paulbourke.net/miscellaneous/interpolation/
   * Should also be compatible with websdr
 * TCP Server outputs (circular buffer feed of chunks)
 * Integrate FCDPP control on local UDP(?) port
