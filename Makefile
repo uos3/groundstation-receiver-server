@@ -6,7 +6,7 @@ CFLAGS = -gdwarf-3 -Og -Wall
 BIN = receiver-server
 SRCS = main.c
 
-LIBS = -lasound
+LIBS = -lasound -lm
 INCLUDES = 
 
 all:
